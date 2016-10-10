@@ -30,6 +30,7 @@
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
 {
     [QFPushTool push:userInfo];
+    // dev修改了这边
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
