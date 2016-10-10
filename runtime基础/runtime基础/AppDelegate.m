@@ -21,6 +21,7 @@
     if (launchOptions[UIApplicationLaunchOptionsRemoteNotificationKey]) {
         NSDictionary *dic = launchOptions[UIApplicationLaunchOptionsRemoteNotificationKey];
         [QFPushTool push:dic];
+        // MAster修改的信息
     }
     return YES;
 }
