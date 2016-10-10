@@ -31,6 +31,7 @@
 {
     [QFPushTool push:userInfo];
     // Master修改了这边
+    // dev修改了这边
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
