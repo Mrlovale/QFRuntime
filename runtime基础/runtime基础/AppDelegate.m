@@ -22,6 +22,7 @@
         NSDictionary *dic = launchOptions[UIApplicationLaunchOptionsRemoteNotificationKey];
         [QFPushTool push:dic];
         // MAster修改的信息
+        // 这是dev修改的信息
     }
     return YES;
 }
